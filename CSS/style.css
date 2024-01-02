@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    --opacidad-negro: 0.5;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, var(--opacidad-negro)),
+        rgba(0, 0, 0, var(--opacidad-negro))
+      ),
+      url("https://www.creativefabrica.com/wp-content/uploads/2023/05/07/Fantasy-Cloud-Sky-Landscape-Studio-Ghibli-Style-8k-HDR-Ultra-69077517-1.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  
+  .page-logo {
+    width: 170px;
+  }
+  
+  .studio-logo {
+    width: 180px;
+  }
+  
+  .alura-latam-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .container_todoFilms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .container_filmes {
+    padding: 2%;
+    display: block;
+    max-width: 30%;
+  }
+  
+  img {
+    max-height: 250px;
+    max-width: 100%;
+  }
+  
+  img:hover {
+    transform: scale(1.2);
+  }
+  
+  p {
+    color: white;
+  }
+  
+  p .page-subtitle {
+    color: #ffffff;
+    margin: 7px auto;
+    padding-bottom: 10px;
+  }
+  
+  .form-wrapper {
+    margin: 15px 0 15px;
+  }
+  
+  .form-wrapper label {
+    margin: 7px auto;
+    color: #ffffff;
+  }
+  
+  .form-wrapper input {
+    display: block;
+    margin: 7px auto;
+    padding: 10px 15px;
+  }
+  
+  .form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #117197;
+    background: #da1e26;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .form-wrapper button:hover {
+    opacity: 0.8;
+  }
+  
+  .buttom_trailer {
+    border: 0;
+    color: #ffffff;
+    background: #92404b;
+    background: #75333c;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .buttom_trailer:hover {
+    opacity: 0.8;
+  }
